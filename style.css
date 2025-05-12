@@ -1,0 +1,125 @@
+/* Universal Styles */
+body {
+  background-image: url("https://content.codecademy.com/courses/web-101/unit-6/htmlcss1-img_foodlogo.png");
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* Navigation Section */
+nav {
+  text-align: center;
+}
+
+nav img {
+  width: 180px; /* Cambia el ancho de la imagen */
+  display: block; /* Asegura que la imagen se comporte como un bloque */
+  margin: 0 auto; /* Centra la imagen horizontalmente */
+}
+
+nav span {
+  display: block; /* Muestra los elementos en bloque */
+  margin: 10px 0; /* Márgenes superior/inferior de 10px, laterales de 0px */
+  font-size: 16px;
+  font-weight: 100;
+  letter-spacing: 2px;
+}
+
+nav a {
+  color: #666666; /* Color de los enlaces */
+}
+
+/* Content Container */
+.content {
+  width: 100%; /* Usa todo el ancho disponible */
+  height: 500px; /* Altura específica */
+  margin: 10px auto; /* Márgenes verticales de 10px, horizontales automáticos */
+  overflow: auto; /* Hace que el contenido sea desplazable si se desborda */
+}
+
+.content .body {
+  margin: 0 auto; /* Sin margen vertical, centrado horizontalmente */
+  width: 90%; /* Ocupa el 90% del ancho del contenedor */
+}
+
+/* Content Header */
+.header {
+  height: 320px; /* Altura del encabezado */
+  background-image: url("https://content.codecademy.com/courses/web-101/unit-6/htmlcss1-img_burgerphoto.jpeg");
+  background-position: center;
+  background-size: cover;
+}
+
+.header h1 {
+  background-color: #05A8AA; /* Fondo color turquesa */
+  color: #FFF; /* Texto blanco */
+  font-family: 'Oswald', sans-serif;
+  font-size: 40px;
+  font-weight: 300;
+  line-height: 40px;
+  width: 68%; /* Ocupa el 68% del ancho */
+  padding: 20px; /* Relleno de 20px */
+  margin: 0 auto; /* Márgenes verticales en 0px, horizontales automáticos */
+}
+
+/* Content Body */
+.body p {
+  color: #333333; /* Texto gris oscuro */
+  font-weight: 100;
+  line-height: 34px; /* Espaciado entre líneas */
+  width: 90%;
+  margin-top: 18px; /* Espaciado superior */
+}
+
+/* Content Button */
+.button {
+  width: 200px; /* Ancho del botón */
+  padding: 20px; /* Relleno interno */
+  margin: 40px auto; /* Márgenes verticales de 40px, horizontales automáticos */
+  border-radius: 4px; /* Bordes redondeados */
+  color: #05A8AA; /* Texto turquesa */
+  display: block; /* El botón se comportará como un bloque */
+  font-weight: 700; /* Texto en negrita */
+  border: 1px solid blue; /* Borde azul sólido */
+  text-align: center;
+}
+
+.button:hover {
+  background-color: #05A8AA; /* Fondo turquesa al pasar el cursor */
+  border: 1px solid #05A8AA; /* Borde turquesa */
+  color: #FFF; /* Texto blanco */
+}
+
+/* Content Nutrition */
+ul.nutrition {
+  padding: 20px; /* Relleno de la lista */
+}
+
+ul.nutrition li {
+  width: 200px; /* Ancho de los elementos */
+  padding: 10px 20px; /* Relleno vertical 10px, horizontal 20px */
+  margin-bottom: 3px; /* Margen inferior de 3px */
+  display: inline-block; /* Los elementos estarán en línea */
+  background-color: #05A8AA; /* Fondo turquesa */
+  list-style: none; /* Elimina los puntos de la lista */
+}
+
+.nutrition .category {
+  color: white; /* Texto blanco */
+  font-weight: 100; /* Texto ligero */
+  letter-spacing: 2px; /* Espaciado entre letras */
+  display: block; /* Muestra las categorías en línea separada */
+}
+
+.nutrition .value {
+  color: white; /* Texto blanco */
+  font-size: 26px; /* Tamaño del texto */
+  font-weight: 700; /* Texto en negrita */
+  letter-spacing: 2px; /* Espaciado entre letras */
+}
